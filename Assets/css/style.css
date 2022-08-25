@@ -1,0 +1,307 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(153, 177, 180);
+}
+
+
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(65, 18, 107);
+    color: rgb(25, 202, 134);
+
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 40px;
+}
+
+header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul a {
+    display: inline-block;
+    margin-left: 5px;
+}
+
+a {
+    color:rgb(25, 202, 134);
+}
+
+.services img {
+    height: 200px;
+    width: 200px;
+}
+
+.art-image {
+    width: 100%;
+    height: 200px;
+    display: block;
+    margin-bottom: 25px;
+    background-image: url(../art.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.subcontainer {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    display: flex;
+    flex: 1 1 0;
+    max-width: 1920px;
+    margin: 2% auto;
+    font-size: 30px;
+}
+
+.column {
+    height: 250px;
+    margin: 0 40px;
+    border-left: 6px solid rgb(27, 5, 58);
+    
+}
+.column-2 {
+    height: 200px;
+    margin: 0 40px;
+    border-left: 6px solid rgb(27, 5, 58);  
+    position: absolute;
+    left: 10rem;
+    top: 70rem;
+}
+.column-3 {
+    height: 400px;
+    margin: 0 40px;
+    border-left: 6px solid rgb(27, 5, 58);  
+    position: absolute;
+    left: 10rem;
+    top: 40rem;  
+}
+
+.First-Title {
+    color: rgb(19, 4, 34);
+    display: flex;
+}
+.subcontainer p {
+    font-size: 20px;
+}
+.First-Title h2 {
+    color:rgb(19, 4, 34) ;
+    display: flex;
+    position: absolute;
+    float: left;
+    left: 0%;
+    top: 90%;
+    font-size: 60px;
+}
+.second-title h1 {
+color:rgb(19, 4, 34) ;
+    display: flex;
+    position: absolute;
+    float: left;
+    left: 0%;
+    top: 75rem;
+    font-size: 33px;    
+}
+.subcontainer ul {
+    color: brown;
+    position: absolute;
+    display: block;
+    left: 17%;
+    top: 75rem;
+}
+
+.text {
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+    text-align: right 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 35%;
+    right: 8%;
+}
+
+
+
+
+
+.float-left {
+    width: 800px;
+    height: 400px;
+    position: relative;
+    bottom: 350px;
+    left: 6.6%;
+    background-color: blueviolet;
+}
+
+
+
+/* .heading-2 {
+    color: rgb(32, 204, 72);
+    position: absolute;
+    top: 160%;
+    width: 100%;
+    text-align: left;
+    left: 53%;
+    font-size: 30px;
+} */
+
+
+/* .heading-3 {
+    color: rgb(23, 204, 72);
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    text-align: left;
+    left: 53%;
+    font-size: 15px;
+} */
+
+*/ .bottom {
+    width: 100%;
+    height: 10%;
+    position: absolute;
+    left: 200px;
+}
+
+
+/* .heading-4 {
+    color: rgb(23, 204, 72);
+    position: absolute;
+    top: 95%;
+    width: 100%;
+    text-align: left;
+    left: 38%;
+    font-size: 30px;
+} */
+
+/* .heading-5 {
+    color: rgb(23, 204, 72);
+    position: absolute;
+    top: 150%;
+    width: 100%;
+    text-align: left;
+    left: 39%;
+    font-size: 15px;
+
+} */
+
+.Computer {
+    width: 380px;
+    height: 120px;
+    position: absolute;
+    bottom: -20%;
+    left: 40%;
+}
+
+/* .heading-6 {
+    color: rgb(23, 204, 72);
+    position: absolute;
+    top: 1130px;
+    width: 100%;
+    text-align: left;
+    left: 953px;
+    font-size: 30px;
+} */
+
+/* .heading-7 {
+    color: rgb(23, 204, 72);
+    position: absolute;
+    top: 1170px;
+    width: 100%;
+    text-align: left;
+    left: 953px;
+    font-size: 15px;
+} */
+
+.Nature {
+    width: 380px;
+    height: 120px;
+    position: relative;
+    top: -1790px;
+    left: 129px;
+}
+
+/* .heading-8 {
+    color: rgb(23, 204, 72);
+    position: absolute;
+    top: 1280px;
+    width: 100%;
+    text-align: left;
+    left: 530px;
+    font-size: 30px; */
+
+}
+
+/* .heading-9 {
+    color: rgb(23, 204, 72);
+    position: absolute;
+    top: 1320px;
+    width: 100%;
+    text-align: left;
+    left: 530px;
+    font-size: 15px;
+} */
+
+.Water {
+    width: 380px;
+    height: 120px;
+    position: relative;
+    bottom: 2431px;
+    ;
+    left: 549px;
+}
+
+/* .heading-10 {
+    color: rgb(23, 204, 72);
+    position: absolute;
+    top: 1280px;
+    width: 100%;
+    text-align: left;
+    left: 953px;
+    font-size: 30px;
+} */
+
+/* .heading-11 {
+    color: rgb(23, 204, 72);
+    position: absolute;
+    top: 1320px;
+    width: 100%;
+    text-align: left;
+    left: 953px;
+    font-size: 15px;
+} */
+
+
+
+.Third-Title {
+    justify-content: space-between;
+    padding-bottom: 5px;
+}
+
+.Third-Title {
+    position: absolute;
+    top: 1290px;
+    left: 333px;
+    text-align: center;
+    font-size: 25px;
+}
