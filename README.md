@@ -1,1 +1,2 @@
 # week-2-homework-
+for the title I put my name so that the readers can see that the web is going to be about me. Along side the my name to right side with a link that take downards next to each title like example work or About me. I made the first picture big as mentioned in the readme and added four more pictures in the bottem of that picture. I made three differnet vertical llines as seen in the pictures to decorate the web.Lastly i put "contact me" along side number, email, youtube and github as to finsh of the web 
