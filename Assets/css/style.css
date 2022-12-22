@@ -4,7 +4,7 @@ body {
     line-height: 1.2;
     font-family: 'Raleway', 'ITC Kabel', 'Futura Maxi', 'ITC Avant Garde', 'Century Gothic', sans-serif;
     font-size: 16px;
-    color:red;
+    color:orange;
   }
 
   header {
@@ -17,7 +17,7 @@ body {
   }
 
   h2 {
-    font-size: 2.625em;
+    font-size: 1em;
     font-family: 'Holland', 'Bombshell Pro', 'Mission Script', 'Insolente', 'Daqncing Script', 'Qwitcher Grypen', 'Satisfy', 'Great Vibes', 'Lucida Handwriting', serif;
   }
 
@@ -32,3 +32,64 @@ body {
     color:#fff;
     text-decoration: none;
   }
+
+  nav a:hover {
+    color: #1f2d53;
+  }
+
+
+  main {
+    display: inline-block;
+    max-width: 1200px;
+    margin: 2% 5%;
+  }
+
+  .module {
+    display: flex;
+    max-width: 1200px;
+    margin: 2% 5%;
+  }
+
+  .column {
+    float: left;
+    width: 20%;
+    min-width: 250px;
+    border-right: #1f2d53 5px solid;
+  }
+
+  .column img {
+    max-width: 220px;
+    border-radius: 5%;
+  }
+  .first {
+        background-size: cover;
+        position: center;
+  }
+  .content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 5%;
+  }
+
+  footer {
+    font-size: larger;
+    background-color: orange;
+    color: whitesmoke;
+    justify-content: center;
+    text-align-last: center;
+    justify-content: space-between;
+  }
+
+  .footer-item {
+    text-decoration: none;
+    color: whitesmoke;
+  }
+
+  .footer-item:hover {
+    color: #1f2d53;
+  }
+
+
+
+  
