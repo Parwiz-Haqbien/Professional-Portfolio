@@ -94,5 +94,43 @@ body {
   }
 
 
+  @media screen and (max-width: 768px) {
+    header {
+      flex-direction: column;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .first {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between; 
+    }
+
+    .module {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .column {
+        width: 100%;
+        border-right: none;
+        border-bottom: #1f2d53 5px solid;
+    }
+  }
+
+  .content {
+    width: 100%;
+  }
+
+
+
 
   
