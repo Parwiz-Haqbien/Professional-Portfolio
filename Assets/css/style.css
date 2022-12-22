@@ -23,6 +23,11 @@ body {
   h3 {
     font-size: 30px;
   }
+  p {
+    position: relative;
+    top: 2rem;
+    left: 3rem;
+  }
 
   nav ul {
     display: flex;
@@ -39,7 +44,11 @@ body {
   nav a:hover {
     color: #1f2d53;
   }
+ .avatar {
+    display: block;
+    margin: 0px auto;
 
+ }
 
   main {
     display: inline-block;
