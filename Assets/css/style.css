@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.2;
+    font-family: 'Raleway', 'ITC Kabel', 'Futura Maxi', 'ITC Avant Garde', 'Century Gothic', sans-serif;
+    font-size: 16px;
+    color:red;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2%;
+    background-color: orange;
+    color: #fff;
+  }
+
+  h2 {
+    font-size: 2.625em;
+    font-family: 'Holland', 'Bombshell Pro', 'Mission Script', 'Insolente', 'Daqncing Script', 'Qwitcher Grypen', 'Satisfy', 'Great Vibes', 'Lucida Handwriting', serif;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px;
+  }
+
+  nav a {
+    font-size: 1.25em;
+    color:#fff;
+    text-decoration: none;
+  }
