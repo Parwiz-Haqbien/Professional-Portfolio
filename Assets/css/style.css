@@ -4,7 +4,7 @@ body {
     line-height: 1.2;
     font-family: 'Raleway', 'ITC Kabel', 'Futura Maxi', 'ITC Avant Garde', 'Century Gothic', sans-serif;
     font-size: 16px;
-    color:orange;
+    color:black;
   }
 
   header {
@@ -19,6 +19,9 @@ body {
   h2 {
     font-size: 1em;
     font-family: 'Holland', 'Bombshell Pro', 'Mission Script', 'Insolente', 'Daqncing Script', 'Qwitcher Grypen', 'Satisfy', 'Great Vibes', 'Lucida Handwriting', serif;
+  }
+  h3 {
+    font-size: 30px;
   }
 
   nav ul {
